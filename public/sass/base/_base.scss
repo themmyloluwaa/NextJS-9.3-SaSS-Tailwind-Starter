@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $color-secondary;
+  box-sizing: border-box;
+}
+
+.btns {
+  @apply bg-red-500 #{!important};
+}
